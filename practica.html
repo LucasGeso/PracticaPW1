@@ -34,16 +34,71 @@
         </div>
 
         <!-- texto usado como etiqueta que indica que su contenido tiene un signifcado especial, al cual se lo asignas con CSS-->>
-        <span>Solo el contenido</span>
+        <p>Cadena larga <span style="color: brown;">Solo el contenido</span> diferenciado <br>Salto de linea</p>
+        <p>Hipervinculo</p>
+        <a href="https://www.google.com.ar/index.html">Ir a google</a>
+        <p>Nueva pestaña</p>
+        <a target="_blank" href="https://www.google.com.ar/index.html">Ir a google Nueva pestaña</a>
 
-        <!-- Listado -->
+        <!--- Agregar una imagen-->
+        <p>Agregar una imagen</p>
+        <aside>
+            <img src="imagenes/JAB0CK.jpg" height="200" width="200">
+        </aside>
+        
 
+        <!-- Formulario, action indica donde enviar lo que se sube con el submit, method: la forma de enviar -->
+        <form action="/formulario" method="post">
+
+            <!-- Etiqueta for refiere al campo para dirigir el click-->
+            <label for="nombre">Nombre</label>
+            <!-- id refiere al click, placeholder es la letra en gris interior, type es el tipo de formato-->
+            <input id="nombre" name="" name="nombre" placeholder="Nombre" type="text">
+            <br>
+            <label for="apellido">Apellido</label>
+            <input id="apellido" name="" name="apellido" placeholder="Apellido" type="text">
+            <br>
+
+            <!--Caja de mesajes, rows marca la cantidad de filas, cols muestra las columas-->
+            <label for="msj">Mensaje</label>
+            <textarea rows="5" cols="40" id="msj" placeholder="Ingrese mensaje"></textarea>
+            <br>
+            <!-- Enviar -->
+            <!--<input type="submit">-->
+             <!-- button: funcion con javascrip, reset: limpia lo cargado, summit: envia el formulario-->
+            <button type="button">Enviar</button><br>
+            <button type="reset">Reiniciar</button><br>
+            <button type="submit">Submit</button><br>
+        
+        </form>
+
+        <!-- lista no ordenada, punto negro -->
         <ul>
             <li>UNO</li>
             <li>DOS</li>
             <li>TRES</li>
             <li>CUATRO</li>
         </ul>
+        <br>
+        <!--Lista ordenada, con múmeros-->
+        <ol>
+            <li>UNO</li>
+            <li>DOS</li>
+            <li>TRES</li>
+            <li>CUATRO</li>
+        </ol>
+        <br>
+        
+        <!-- seccion, line-height interlineado, font- size tamaño letra dentro de un div-->
+        <div style="line-height: 0.2; font-size: 20px;">
+            <p>nombre</p>
+            <p>apellido</p>
+            <p>edad</p>
+            <p>direccion</p>
+
+        </div>
+
+
     </main>
 
     <!-- Va por fuera -->
