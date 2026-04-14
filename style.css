@@ -1,0 +1,42 @@
+/* ID */
+#datos{
+    color: tomato;
+    line-height: 0.2; /* interlineado */ 
+    font-size: 20; /* tamaño letra */ 
+}
+
+/* CLASS */
+.publicidad{
+    color: rgb(22, 83, 49); /* color rgb*/
+}
+
+/* ETIQUETA */
+h1{
+    color: black;
+    font-size: 400%; /* tamaño letra */ 
+    text-align: center; /* alineación */ 
+    width: 1000px; /* ancho del recuadro */ 
+    height: 90px; /* alto del recuadro */ 
+    border-style: solid; /* estilo del borde, solido para que sea visible */ 
+    border-color: black; /* color del borde */ 
+    background-color: aqua; /* color del fondo */ 
+    
+
+}
+
+footer{
+    font-family: Arial; /* cambiar fuente */
+    font-size: 30px; /* tamaño letra */ 
+    font-weight: bold; /* grosor fuente: negrita */ 
+    text-align: center; /* alineación del texto*/ 
+}
+
+body{
+    width: 80%; 
+    min-height: 100%;
+    overflow-x: hidden;
+    align-content: center;
+}
+
+
+
