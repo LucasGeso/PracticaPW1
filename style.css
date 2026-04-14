@@ -20,8 +20,6 @@ h1{
     border-style: solid; /* estilo del borde, solido para que sea visible */ 
     border-color: black; /* color del borde */ 
     background-color: aqua; /* color del fondo */ 
-    
-
 }
 
 footer{
@@ -33,9 +31,9 @@ footer{
 
 body{
     width: 80%; 
-    min-height: 100%;
-    overflow-x: hidden;
-    align-content: center;
+    height: 100%;
+    overflow-x: hidden; /* oculta la barra de desplazamiento*/
+    margin: 0 auto; /* reparte espacios sobrantes a la izquierda y la derecha*/
 }
 
 
